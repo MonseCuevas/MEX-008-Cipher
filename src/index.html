@@ -35,27 +35,27 @@
             <div class="col col-12">
               <div class="col-6">
                   <label for="desplazamiento">Número de desplazamientos</label>
-                  <input name="desplazamiento" class="text">
+                  <input id="offsetEncriptado" name="desplazamiento" class="text">
               </div>                        
             </div>
             <div class="col col-6">
               <label for="Lada">Lada</label>
-              <input class="text"/>
+              <input id="ladaEncriptado" class="text"/>
             </div>
             <div class="col col-6">
               <label for="Número">Número</label>
-              <input class="text"/>
+              <input id="numeroEncriptado" class="text"/>
             </div>
             <div class="col col-12">
               <label for="encriptar">Mensaje a Encriptar</label>
-              <textarea name="encriptar" id="" class="text-area" cols="30" rows="5"></textarea>
+              <textarea name="encriptar" id="mensajeAEncriptar" class="text-area" cols="30" rows="5"></textarea>
             </div>
             <div class="col col-12">
               <label for="encriptado">Mensaje Encriptado</label>
-              <textarea name="encriptado" id="" class="text-area" cols="30" rows="5"></textarea>
+              <textarea name="encriptado" id="mensajeEncriptado" class="text-area" cols="30" rows="5"></textarea>
             </div>
             <div class="col col-12">
-              <button class="btn">Enviar</button>
+              <button id="btnEncriptado" class="btn">Enviar</button>
             </div>
           </div>
         </section>
@@ -64,24 +64,25 @@
             <div class="col col-12">
               <div class="col-6">
                 <label for="desplazamiento">Número de desplazamientos</label>
-                <input name="desplazamiento" class="text">
+                <input id="offsetDesencriptado" name="desplazamiento" class="text">
               </div>  
             </div>
             <div class="col col-12">
               <label for="encriptado">Mensaje a Desencriptar</label>
-              <textarea name="encriptado" id="" class="text-area" cols="30" rows="5"></textarea>
+              <textarea name="encriptado" id="mensajeADesencriptar" class="text-area" cols="30" rows="5"></textarea>
             </div>
             <div class="col col-12">
               <label for="desencriptado">Mensaje Desencriptado</label>
-              <textarea name="desencriptado" id="" class="text-area" cols="30" rows="5"></textarea>
+              <textarea name="desencriptado" id="mensajeDesencriptado" class="text-area" cols="30" rows="5"></textarea>
             </div>
             <div class="col col-12">
-              <button class="btn">Desencriptar</button>
+              <button id="btnDesencriptar" class="btn">Desencriptar</button>
             </div>                  
           </div> 
         </section>
       </div>
   </div>
+  <script type="text/javascript" src="cipher.js"></script>
   <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
