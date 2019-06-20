@@ -1,3 +1,33 @@
+## Briedes Messages
+Tuve varias ideas la primera fue hacer un chat de novios crecreto pero recibi feedback de mis compañeras y me dijeron que no seria muy util y que como lo haría entonces me surgio otra idea, suelo ver programas de novias donde van a comprar su vestido y va toda la familia entonces se me ocurrio que siempre que veo el programa va toda la familia con la novia y nunca la dejan escoger lo que a ella le gustaba.
+## Cuáles son los objetivos de estos usuarios en relación con tu producto.
+Entonces se me ocurrio hacer un chat para la tienda de novia y la novia esto con la intención de que la novia pueda mandarle mensajes a la tienda de novia sugiriendo cambios en su vestido sin que su familia se entere y asi ella pueda estar contenta con su vestido.
+Recibi feedback de mis compañeras y me dijeron que era buena idea que incluso podrí darle otra utilidad que podría ser que por medio de esa aplicación puedan las damas de hornor  por ese medio su despedida de soltera sin que ella se entere.
+## Aquien va dirigido 
+Este producto va dirigido para las novias que estan apunto que casarse y la tineda de vestidos de novia y para las damas de honor que acompañen a la novia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
