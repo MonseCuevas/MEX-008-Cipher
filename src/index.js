@@ -29,7 +29,7 @@ document.getElementById("btnEncriptado").addEventListener("click", () => {
   let mensajeAEncriptar = document.getElementById("mensajeAEncriptar").value;
   let mensajeEncriptado = document.getElementById("mensajeEncriptado");
 
-  let mensajeCifrado = cipher.encode(mensajeAEncriptar.trim(), offset);
+  let mensajeCifrado = window.cipher.encode(mensajeAEncriptar.trim(), offset);
   mensajeEncriptado.value = mensajeCifrado;
 
   window.open("https://wa.me/" + lada.trim() + numero.trim() + "?text=" + mensajeCifrado, "_blank");
@@ -40,6 +40,6 @@ document.getElementById("btnDesencriptar").addEventListener("click", () => {
   let mensajeADesencriptar = document.getElementById("mensajeADesencriptar").value;
   let mensajeDesencriptado = document.getElementById("mensajeDesencriptado");
 
-  let mensajeDecifrado = cipher.decode(mensajeADesencriptar, offset);
+  let mensajeDecifrado = window.cipher.decode(mensajeADesencriptar, offset);
   mensajeDesencriptado.value = mensajeDecifrado;
 });

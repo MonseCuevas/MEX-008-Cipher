@@ -3,11 +3,11 @@ function mod(n, m) {
 }
 
 window.cipher = {
-  encode: (mensaje, offset) => {
+  encode: (offset, string) => {
     let mensajeCifrado = '';
 
-    for (let i = 0; i < mensaje.length; i++) {
-      let caracter = mensaje.charAt(i);
+    for (let i = 0; i < string.length; i++) {
+      let caracter = string.charAt(i);
 
       if(caracter === ' '){
         mensajeCifrado = mensajeCifrado + caracter;
@@ -20,11 +20,11 @@ window.cipher = {
 
     return mensajeCifrado;
   },
-  decode: (mensaje, offset) => {
+  decode: (offset,string) => {
     let mensajeDesencriptado = '';
 
-    for(let i = 0; i < mensaje.length; i++){
-      let caracter = mensaje.charAt(i);
+    for(let i = 0; i < string.length; i++){
+      let caracter = string.charAt(i);
 
       if(caracter === ' '){
         mensajeDesencriptado = mensajeDesencriptado + caracter;
